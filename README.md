@@ -1,6 +1,6 @@
 # Building CryptoNote
 
-### On *nix:
+### On *nix:
 
 Dependencies: GCC 4.7.3 or later, CMake 2.8.6 or later, and Boost 1.53 or later (except 1.54, more details here: http://goo.gl/RrCFmA).
 You may download them from:
@@ -9,13 +9,13 @@ You may download them from:
 - http://www.boost.org/
 - Alternatively, it may be possible to install them using a package manager.
 
-*** To build, change to a directory where this file is located, and run `make'. The resulting executables can be found in build/release/src. ***
+To build, change to a directory where this file is located, and run **make**. The resulting executables can be found in ***build/release/src***.
 
 ### Advanced options:
-- Parallel build: run `make -j<number of threads>' instead of `make'.
-- Debug build: run `make build-debug'.
-- Test suite: run `make test-release' to run tests in addition to building. Running `make test-debug' will do the same to the debug version.
-- Building with Clang: it may be possible to use Clang instead of GCC, but this may not work everywhere. To build, run `export CC=clang CXX=clang++' before running `make'.
+- Parallel build: run **make -j<number of threads>** instead of **make**.
+- Debug build: run **make build-debug**.
+- Test suite: run **make test-release** to run tests in addition to building. Running **make test-debug** will do the same to the debug version.
+- Building with Clang: it may be possible to use Clang instead of GCC, but this may not work everywhere. To build, run **export CC=clang CXX=clang++** before running **make**.
 
 ### On Windows:
 Dependencies: MSVC 2012 or later, CMake 2.8.6 or later, and Boost 1.53 or later. You may download them from:
