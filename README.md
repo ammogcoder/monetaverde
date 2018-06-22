@@ -17,13 +17,13 @@ To build, change to a directory where this file is located, and run **make**. Th
 - Test suite: run **make test-release** to run tests in addition to building. Running **make test-debug** will do the same to the debug version.
 - Building with Clang: it may be possible to use Clang instead of GCC, but this may not work everywhere. To build, run **export CC=clang CXX=clang++** before running **make**.
 
-### On Windows:
+### On Windows:
 Dependencies: MSVC 2012 or later, CMake 2.8.6 or later, and Boost 1.53 or later. You may download them from:
 - http://www.microsoft.com/
 - http://www.cmake.org/
 - http://www.boost.org/
 
-*** To build, change to a directory where this file is located, and run this commands: ***
+***To build, change to a directory where this file is located, and run this commands:***
 - mkdir build
 - cd build
 - cmake -G "Visual Studio 11 Win64" ..
